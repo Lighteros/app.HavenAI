@@ -220,8 +220,8 @@ const ot = [
   Ce = 4e5;
 _t.from((60 / Yn) * 60 * 24 * 365);
 const Zn = { staleTime: 1 / 0, refetchInterval: 15e3 },
-  Kn = new jt({ supportedChainIds: [D] }),
-  Qn = new Vt({ supportedChainIds: [D] }),
+  Kn = new jt({ supportedChainIds: [1] }),
+  Qn = new Vt({ supportedChainIds: [1] }),
   Jn = { [F.Injected]: Kn, [F.BSC]: Qn },
   ct = { [F.Injected]: "ethereum", [F.BSC]: "BinanceChain" },
   $n = (t) => new Gt(t);
